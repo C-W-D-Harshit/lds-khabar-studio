@@ -1,0 +1,253 @@
+[
+  {
+    "file": "brand/logo.png",
+    "what": "LDS Khabar YouTube channel avatar, original resolution (=s0)",
+    "credit": "LdsKhabar (own channel)",
+    "license_note": "Channel's own branding",
+    "url": "https://www.youtube.com/@ldskhabar",
+    "width": 1110,
+    "height": 1110
+  },
+  {
+    "file": "brand/banner.jpg",
+    "what": "LDS Khabar channel banner, full original 2048x1152 (TV-safe area incl. white margins); converted PNG->JPG",
+    "credit": "LdsKhabar (own channel)",
+    "license_note": "Channel's own branding",
+    "url": "https://www.youtube.com/@ldskhabar",
+    "width": 2048,
+    "height": 1152
+  },
+  {
+    "file": "brand/banner_desktop_crop.jpg",
+    "what": "LDS Khabar banner, YouTube desktop crop (central strip)",
+    "credit": "LdsKhabar (own channel)",
+    "license_note": "Channel's own branding",
+    "url": "https://www.youtube.com/@ldskhabar",
+    "width": 2048,
+    "height": 339
+  },
+  {
+    "file": "s11_notes/viral_frame_burning_720x1280.jpg",
+    "what": "Frame (t=2s) from original viral video: man seated on roadside at night burning bundles of notes, fire at left, cash bundles and plastic bags in front. Vertical 9:16, no watermark.",
+    "credit": "Video via X/@AadyaTales",
+    "license_note": "Third-party viral footage; not licensed. Use as news reporting/fair dealing with on-screen credit; footage authenticity unverified.",
+    "url": "https://x.com/AadyaTales/status/2122946654810919301",
+    "width": 720,
+    "height": 1280
+  },
+  {
+    "file": "s11_notes/viral_frame2_720x1280.jpg",
+    "what": "Frame (t=15s) from the same viral video, man holding notes over the fire.",
+    "credit": "Video via X/@AadyaTales",
+    "license_note": "Third-party viral footage; not licensed. Use as news reporting/fair dealing with on-screen credit; footage authenticity unverified.",
+    "url": "https://x.com/AadyaTales/status/2122946654810919301",
+    "width": 720,
+    "height": 1280
+  },
+  {
+    "file": "s11_notes/asianet_composite_1280x720.jpg",
+    "what": "Asianet Newsable article lead image: 16:9 two-panel composite of stills from the viral video (close-up of man + burning bundles).",
+    "credit": "Asianet Newsable",
+    "license_note": "News-site image, copyright Asianet; reference/fallback only, credit if used",
+    "url": "https://newsable.asianetnews.com/india/shocking-man-sets-bundles-of-cash-on-fire-for-social-media-fame-video-goes-viral-articleshow-86pn94h",
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "file": "s11_notes/stock_burning_money_flames.jpg",
+    "what": "Generic: Euro banknotes and coins on a wooden chest engulfed in flames (composite stock image). No watermark.",
+    "credit": "rawpixel (public domain)",
+    "license_note": "CC0 1.0 public domain, no attribution needed",
+    "url": "https://www.rawpixel.com/image/6017360/burning-money-free-public-domain-cc0-image",
+    "width": 1024,
+    "height": 683
+  },
+  {
+    "file": "s11_notes/stock_burning_cash_hand.jpg",
+    "what": "Generic: hand holding a fan of US $100 bills burning at the top, plain grey background. No watermark.",
+    "credit": "rawpixel (public domain)",
+    "license_note": "CC0 1.0 public domain, no attribution needed",
+    "url": "https://www.rawpixel.com/image/5969239/burning-money",
+    "width": 683,
+    "height": 1024
+  },
+  {
+    "file": "s11_notes/stock_500_rupee_note_specimen.jpg",
+    "what": "Indian Rs 500 note (Mahatma Gandhi new series, 2016) obverse, RBI 'SPECIMEN' image.",
+    "credit": "Reserve Bank of India / Wikimedia Commons",
+    "license_note": "GODL-India (Government Open Data License - India), attribution to RBI",
+    "url": "https://commons.wikimedia.org/wiki/File:India_new_500_INR,_MG_series,_2016,_obverse.jpg",
+    "width": 1162,
+    "height": 487
+  },
+  {
+    "file": "s12_bulls/viral_frame_bull_on_car_720x1280.jpg",
+    "what": "Frame (t=7.0s) from original CCTV clip (CAM2): black bull on top of parked red Renault Kwid, brown bull in front, narrow residential lane. Vertical 9:16; 'CAM2' CCTV label bottom-left; dark diagonal window-frame bar crosses lower half.",
+    "credit": "CCTV video via X/@iNikhilsaini",
+    "license_note": "Third-party viral footage; not licensed. Use as news reporting/fair dealing with on-screen credit; footage authenticity unverified.",
+    "url": "https://x.com/iNikhilsaini/status/2123389250293166145",
+    "width": 720,
+    "height": 1280
+  },
+  {
+    "file": "s12_bulls/viral_frame2_bull_on_car_720x1280.jpg",
+    "what": "Frame (t=6.7s) same CCTV clip, bull climbing onto the red car.",
+    "credit": "CCTV video via X/@iNikhilsaini",
+    "license_note": "Third-party viral footage; not licensed. Use as news reporting/fair dealing with on-screen credit; footage authenticity unverified.",
+    "url": "https://x.com/iNikhilsaini/status/2123389250293166145",
+    "width": 720,
+    "height": 1280
+  },
+  {
+    "file": "s12_bulls/viral_frame_street_before_720x1280.jpg",
+    "what": "Frame (t=3s) same CCTV clip before the bulls arrive: lane, parked red car, two women in red.",
+    "credit": "CCTV video via X/@iNikhilsaini",
+    "license_note": "Third-party viral footage; not licensed. Use as news reporting/fair dealing with on-screen credit; footage authenticity unverified.",
+    "url": "https://x.com/iNikhilsaini/status/2123389250293166145",
+    "width": 720,
+    "height": 1280
+  },
+  {
+    "file": "s12_bulls/stock_bulls_fighting_street_india.jpg",
+    "what": "Two stray bulls (brown and dark brown) locking heads on a dusty Indian street in front of shops and parked motorbikes (Andhra/Telangana, Telugu signage).",
+    "credit": "Bhaskaranaidu / Wikimedia Commons, CC BY-SA 3.0",
+    "license_note": "CC BY-SA 3.0, attribution required (share-alike)",
+    "url": "https://commons.wikimedia.org/wiki/File:Bull_fight.JPG",
+    "width": 1920,
+    "height": 1440
+  },
+  {
+    "file": "s12_bulls/stock_cattle_street_car_delhi.jpg",
+    "what": "Three stray cattle incl. a horned black bull on a Delhi street beside a parked white car, shop signs behind.",
+    "credit": "McKay Savage / Wikimedia Commons, CC BY 2.0",
+    "license_note": "CC BY 2.0, attribution required",
+    "url": "https://commons.wikimedia.org/wiki/File:India_-_Delhi_-_009_-_cows_hanging_out_on_the_road_(2129391055).jpg",
+    "width": 1920,
+    "height": 1440
+  },
+  {
+    "file": "s12_bulls/stock_bull_on_road_hyderabad.jpg",
+    "what": "Large horned bull walking on a road median in Hyderabad, auto-rickshaw and pedestrians.",
+    "credit": "melgupta / Wikimedia Commons, CC BY-SA 2.0",
+    "license_note": "CC BY-SA 2.0, attribution required (share-alike)",
+    "url": "https://commons.wikimedia.org/wiki/File:Cattle_Hyderabad_Street_2005.jpg",
+    "width": 1600,
+    "height": 1200
+  },
+  {
+    "file": "s11_notes/viral_clip_x_source.mp4",
+    "what": "Original viral video (720x1280, with audio) of man burning notes, as posted on X. Source reference; frames extracted from it.",
+    "credit": "Video via X/@AadyaTales",
+    "license_note": "Third-party viral footage; not licensed. Use as news reporting/fair dealing with on-screen credit; footage authenticity unverified.",
+    "url": "https://x.com/AadyaTales/status/2122946654810919301",
+    "duration_s": 26.22,
+    "width": 720,
+    "height": 1280
+  },
+  {
+    "file": "s12_bulls/viral_clip_x_cctv_source.mp4",
+    "what": "Original CCTV clip (720x1280, no audio) of bulls and red car, as posted on X.",
+    "credit": "CCTV video via X/@iNikhilsaini",
+    "license_note": "Third-party viral footage; not licensed. Use as news reporting/fair dealing with on-screen credit; footage authenticity unverified.",
+    "url": "https://x.com/iNikhilsaini/status/2123389250293166145",
+    "duration_s": 11.0,
+    "width": 720,
+    "height": 1280
+  },
+  {
+    "file": "audio/music_1.mp3",
+    "what": "Music: 'Epical Drums 03' by Grigoriy Nuzhny, orchestral-hybrid, driving percussion (3:03).",
+    "credit": "Mixkit / Grigoriy Nuzhny",
+    "license_note": "Mixkit Stock Music Free License: free for commercial use incl. YouTube videos, no attribution required (https://mixkit.co/license/#musicFree)",
+    "url": "https://mixkit.co/free-stock-music/orchestral-hybrid/",
+    "duration_s": 183.0
+  },
+  {
+    "file": "audio/music_2.mp3",
+    "what": "Music: 'Tech House vibes' by Alejandro Magana (A. M.), steady electronic beat (1:42).",
+    "credit": "Mixkit / Alejandro Magana",
+    "license_note": "Mixkit Stock Music Free License: free for commercial use incl. YouTube videos, no attribution required (https://mixkit.co/license/#musicFree)",
+    "url": "https://mixkit.co/free-stock-music/tag/drums/",
+    "duration_s": 102.37
+  },
+  {
+    "file": "audio/sfx_whoosh_1.mp3",
+    "what": "SFX 'Cinematic whoosh fast transition' (Mixkit #1492)",
+    "credit": "Mixkit",
+    "license_note": "Mixkit Sound Effects Free License: free for commercial & YouTube use, no attribution required (https://mixkit.co/license/#sfxFree)",
+    "url": "https://mixkit.co/free-sound-effects/whoosh/",
+    "duration_s": 1.33
+  },
+  {
+    "file": "audio/sfx_whoosh_2.mp3",
+    "what": "SFX 'Fast whoosh transition' (Mixkit #1490)",
+    "credit": "Mixkit",
+    "license_note": "Mixkit Sound Effects Free License: free for commercial & YouTube use, no attribution required (https://mixkit.co/license/#sfxFree)",
+    "url": "https://mixkit.co/free-sound-effects/whoosh/",
+    "duration_s": 1.76
+  },
+  {
+    "file": "audio/sfx_whoosh_3.mp3",
+    "what": "SFX 'Fast transitions swoosh' (Mixkit #3115), very short",
+    "credit": "Mixkit",
+    "license_note": "Mixkit Sound Effects Free License: free for commercial & YouTube use, no attribution required (https://mixkit.co/license/#sfxFree)",
+    "url": "https://mixkit.co/free-sound-effects/transition/",
+    "duration_s": 0.57
+  },
+  {
+    "file": "audio/sfx_impact_boom.mp3",
+    "what": "SFX 'Big cinematic impact' (Mixkit #788), deep boom with tail",
+    "credit": "Mixkit",
+    "license_note": "Mixkit Sound Effects Free License: free for commercial & YouTube use, no attribution required (https://mixkit.co/license/#sfxFree)",
+    "url": "https://mixkit.co/free-sound-effects/impact/",
+    "duration_s": 7.93
+  },
+  {
+    "file": "audio/sfx_breaking_news_alert.mp3",
+    "what": "SFX 'Television news report transition' (Mixkit #3089)",
+    "credit": "Mixkit",
+    "license_note": "Mixkit Sound Effects Free License: free for commercial & YouTube use, no attribution required (https://mixkit.co/license/#sfxFree)",
+    "url": "https://mixkit.co/free-sound-effects/transition/",
+    "duration_s": 7.4
+  },
+  {
+    "file": "audio/sfx_glitch.mp3",
+    "what": "SFX 'Digital glitch break' (Mixkit #2951)",
+    "credit": "Mixkit",
+    "license_note": "Mixkit Sound Effects Free License: free for commercial & YouTube use, no attribution required (https://mixkit.co/license/#sfxFree)",
+    "url": "https://mixkit.co/free-sound-effects/glitch/",
+    "duration_s": 1.07
+  },
+  {
+    "file": "audio/sfx_tick.mp3",
+    "what": "SFX 'Cool interface click tone' (Mixkit #2568), subtle UI tick",
+    "credit": "Mixkit",
+    "license_note": "Mixkit Sound Effects Free License: free for commercial & YouTube use, no attribution required (https://mixkit.co/license/#sfxFree)",
+    "url": "https://mixkit.co/free-sound-effects/click/",
+    "duration_s": 0.2
+  },
+  {
+    "file": "audio/sfx_pop.mp3",
+    "what": "SFX 'Explainer video pops whoosh light pop' (Mixkit #3005)",
+    "credit": "Mixkit",
+    "license_note": "Mixkit Sound Effects Free License: free for commercial & YouTube use, no attribution required (https://mixkit.co/license/#sfxFree)",
+    "url": "https://mixkit.co/free-sound-effects/whoosh/",
+    "duration_s": 0.18
+  },
+  {
+    "file": "audio/sfx_news_intro.mp3",
+    "what": "SFX 'Musical news presentation intro' (Mixkit #1145), news intro sting",
+    "credit": "Mixkit",
+    "license_note": "Mixkit Sound Effects Free License: free for commercial & YouTube use, no attribution required (https://mixkit.co/license/#sfxFree)",
+    "url": "https://mixkit.co/free-sound-effects/news/",
+    "duration_s": 7.3
+  },
+  {
+    "file": "audio/sfx_news_intro_short.mp3",
+    "what": "SFX 'Intro news sound' (Mixkit #1151), short news sting",
+    "credit": "Mixkit",
+    "license_note": "Mixkit Sound Effects Free License: free for commercial & YouTube use, no attribution required (https://mixkit.co/license/#sfxFree)",
+    "url": "https://mixkit.co/free-sound-effects/news/",
+    "duration_s": 3.49
+  }
+]

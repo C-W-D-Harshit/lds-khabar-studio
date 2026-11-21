@@ -1,0 +1,31 @@
+# installed by setup.sh
+engine/node_modules/
+tools/whisper/.venv/
+tools/whisper/model/
+**/__pycache__/
+
+# daily work stays on the Mac
+inbox/*
+!inbox/.gitkeep
+videos/*
+!videos/.gitkeep
+
+# local
+.DS_Store
+*.log
+.claude/settings.local.json
+engine/out/
+engine/.remotion/
+tools/env.local.sh
+
+# downloaded by setup.sh when the Mac has none of its own
+tools/bin/
+tools/node/
+tools/.setup_done
+
+# each edition's own photos, voice and clips (copied in per edition, never in git)
+engine/public/vo/
+engine/public/img/
+engine/public/sm/
+engine/public/bg/
+engine/public/vid/
