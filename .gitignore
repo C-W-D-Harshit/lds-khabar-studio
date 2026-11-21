@@ -29,3 +29,15 @@ engine/public/img/
 engine/public/sm/
 engine/public/bg/
 engine/public/vid/
+
+# belt and braces: no videos or voice recordings anywhere, except the published reference
+*.mp4
+*.mov
+*.m4v
+*.webm
+*.wav
+*.ogg
+*.opus
+*.m4a
+*.aac
+!reference/**/*.mp4

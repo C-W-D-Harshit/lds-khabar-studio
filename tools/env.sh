@@ -4,7 +4,8 @@ _lds_self="${BASH_SOURCE[0]:-${(%):-%x}}"
 export STUDIO="$(cd "$(dirname "$_lds_self")/.." && pwd)"
 unset _lds_self
 # Node 22: prefer nvm's, then Homebrew's node@22, then whatever node is on PATH
-_lds_nvm="$(ls -d "$HOME"/.nvm/versions/node/v22.* 2>/dev/null | sort -V | tail -1)"
+_lds_nvm="$(ls "$HOME/.nvm/versions/node" 2>/dev/null | grep '^v22\.' | sort -V | tail -1)"
+[ -n "$_lds_nvm" ] && _lds_nvm="$HOME/.nvm/versions/node/$_lds_nvm"
 [ -n "$_lds_nvm" ] && export PATH="$_lds_nvm/bin:$PATH"
 export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
 [ -d /opt/homebrew/opt/node@22/bin ] && export PATH="/opt/homebrew/opt/node@22/bin:$PATH"

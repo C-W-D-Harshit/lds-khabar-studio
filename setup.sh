@@ -11,6 +11,8 @@ mkdir -p "$BIN"
 say() { printf '\n==> %s\n' "$*"; }
 ok()  { printf '    ✓ %s\n' "$*"; }
 get() { curl -fL --retry 3 --connect-timeout 20 -sS -o "$2" "$1"; }
+retry() { local n; for n in 1 2 3; do "$@" && return 0; echo "    (network hiccup, trying again: $n of 3)"; sleep 10; done; return 1; }
+export UV_HTTP_TIMEOUT=300
 
 [ "$(uname -s)" = Darwin ] || { echo "This needs a Mac."; exit 1; }
 [ "$(uname -m)" = arm64 ] || { echo "This needs an Apple Silicon Mac (M1 or newer): Hindi speech-to-text runs on the Apple chip."; exit 1; }
@@ -48,16 +50,16 @@ hash -r
 ok "$(ffmpeg -version | head -1 | awk '{print $1, $3}'), yt-dlp $(yt-dlp --version), $(uv --version)"
 
 say "Video engine"
-( cd engine && npm ci --no-audit --no-fund --loglevel=error )
+retry bash -c 'cd engine && npm ci --no-audit --no-fund --loglevel=error'
 ( cd engine && npx --yes remotion browser ensure >/dev/null 2>&1 ) && ok "headless browser ready" || echo "    (browser downloads on first render)"
 ( cd engine && npx tsc --noEmit ) && ok "engine compiles"
 
 say "Hindi speech-to-text (Whisper large-v3-turbo, runs offline)"
 [ -x tools/whisper/.venv/bin/python ] || uv venv -q --python 3.12 tools/whisper/.venv
-VIRTUAL_ENV="$ROOT/tools/whisper/.venv" uv pip install -q "mlx-whisper==0.4.3" huggingface_hub
+retry env VIRTUAL_ENV="$ROOT/tools/whisper/.venv" uv pip install -q "mlx-whisper==0.4.3" huggingface_hub
 if [ ! -f tools/whisper/model/weights.safetensors ]; then
   echo "    downloading the model (about 1.6 GB, one time)"
-  tools/whisper/.venv/bin/python -c "
+  retry tools/whisper/.venv/bin/python -c "
 from huggingface_hub import snapshot_download
 snapshot_download('mlx-community/whisper-large-v3-turbo', local_dir='tools/whisper/model')"
 fi
